@@ -13,7 +13,7 @@ do_compile[depends] += "u-boot:do_deploy rcw:do_deploy uefi:do_deploy"
 
 S = "${WORKDIR}/git"
 
-SRC_URI = "git://source.codeaurora.org/external/qoriq/qoriq-components/atf;nobranch=1"
+SRC_URI = "git://github.com/nxp-qoriq/qoriq-components/atf;nobranch=1"
 SRCREV = "9225ad51f026975fa6b86db800f43c55db11fa4d"
 
 COMPATIBLE_MACHINE = "(qoriq)"
